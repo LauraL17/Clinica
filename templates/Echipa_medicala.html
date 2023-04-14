@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+ <style>
+body {
+  background-image: url("static/photo/Background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style> 
+<body>
+  <center>
+   <img src="{{ url_for('static', filename='photo/Logo_Clinica.jpg')}}"
+     width="75" 
+     height="75"
+ class="image"/>
+  </center>
+  <br>
+<header>
+  <a href="/acasa"><button style="background-color: skyblue; color:black; font-size: 20px">Acasa</button></a>
+  <a href="/specializari"> <button style="background-color: skyblue; color:black; font-size: 20px">Specializari</button></a>
+  <a href="/echipa"> <button style="background-color: skyblue; color:black; font-size: 20px">Echipa medicala</button></a>
+  <a href="/programari"><button style="background-color: skyblue; color:black; font-size: 20px">Programari</button></a>
+  <a href="/rezultate_analize"><button style="background-color:skyblue; color: black; font-size: 20px">Rezultate analize</button></a>
+  <a href="/tarife"><button style="background-color: skyblue; color:black; font-size: 20px">Tarife</button></a>
+  <a href="/contact"><button style="background-color: skyblue; color:black; font-size: 20px">Contact</button></a>
+  <a href="/rapoarte"><button style="background-color: skyblue; color:black; font-size: 20px">Rapoarte</button></a>
+</header>
+<body>
+<body>
+  <left><br><br>
+    <h1>&nbsp;&nbsp;Echipa medicala</h1>
+</left>
+<br>
+</style>
+</head>
+<body>
+  <style>
+.row img {
+   display:inline-block;
+}
+.row{
+  text-align:left;
+}
+</style>
+
+<div class="row">
+<h2>Alergologie & Imunologie</h2>
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Alergologie_Imunologie/Dorin_Voinea.webp')}}" width="230" height="230" hspace="15">
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Alergologie_Imunologie/Homner_Moisescu.webp')}}" width="230" height="230" hspace="15">
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Alergologie_Imunologie/Iulia_Grigorita.jpg')}}" width="230" height="230" hspace="15">
+<pre class="tab">
+       Dr. Dorin Voinea                     Dr. Homner Moisescu                   Dr. Iulia Grigorita
+</pre>
+<br>  
+<h2>Cardiologie</h2>
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Cardiologie/Elena_Tomulescu.jpg')}}" width="230" height="230" hspace="15">
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Cardiologie/Stefania_Malaia.jpg')}}" width="230" height="230" hspace="15">
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Cardiologie/Valeriu_Gheorghiu.jpg')}}" width="230" height="230" hspace="15">
+<pre class="tab">
+        Dr. Elena Tomulescu                   Dr. Stefania Malaia                 Dr. Valeriu Gheorgiu
+</pre>
+<br>  
+<h2>Dermatologie</h2>
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Dermatologie/Adrian_Moisescu.jpg')}}" width="230" height="230" hspace="15">
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Dermatologie/Lucian_Mihailescu.jpg')}}" width="230" height="230" hspace="15">
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Dermatologie/Tania_Sondra.jpg')}}" width="230" height="230" hspace="15">
+<pre class="tab">
+        Dr. Adrian Moisescu                   Dr. Lucian Mihailescu                 Dr. Tania Sondra
+</pre>
+<br>  
+<h2>Diabet & Nutritie</h2>
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Diabet_Nutritie/Adela_Ilies.jpg')}}" width="230" height="230" hspace="15">
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Diabet_Nutritie/Dalia_Vilculescu.jpg')}}" width="230" height="230" hspace="15">
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Diabet_Nutritie/Livia_Vlasceanu.jpg')}}" width="230" height="230" hspace="15">
+<pre class="tab">
+        Dr. Adela Ilies                    Dr. Dalia Vilculescu                   Dr. Livia Vlasceanu
+</pre>
+<br>  
+<h2>Endocrinologie</h2>
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Endocrinologie/Gabriel_Stanescu.jpg')}}" width="230" height="230" hspace="15">
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Endocrinologie/Mirabela_Dimitrescu.jpg')}}" width="230" height="230" hspace="15">
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Endocrinologie/Smaranda_Tunaru.jpg')}}" width="230" height="230" hspace="15">
+<pre class="tab">
+        Dr. Gabriel Stanescu                Dr. Mirabela Dimitrescu                Dr. Smaranda Tunaru
+</pre>
+<br>  
+<h2>Gastroenterologie</h2>
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Gastroenterologie/Andreea_Gherban.jpg')}}" width="230" height="230" hspace="15">
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Gastroenterologie/Laurentiu_Oana.jpg')}}" width="230" height="230" hspace="15">
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Gastroenterologie/Valeriu_Ionita.webp')}}" width="230" height="230" hspace="15">
+<pre class="tab">
+        Dr. Andreea Gherban                   Dr. Laurentiu Oana                 Dr. Valeriu Ionita
+</pre>
+<br>  
+<h2>Neurologie</h2>
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Neurologie/Camelia_Ciocirlan.jpg')}}" width="230" height="230" hspace="15">
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Neurologie/Nicolae_Catalin.jpg')}}" width="230" height="230" hspace="15">
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Neurologie/Sergiu_Calinescu.jpg')}}" width="230" height="230" hspace="15">
+<pre class="tab">
+        Dr. Camelia Ciocirlan                   Dr. Nicolae Catalin                 Dr. Sergiu Calinescu
+</pre>
+<br>  
+<h2>Oftalmologie</h2>
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Oftalmologie/Corina_Manolache.jpg')}}" width="230" height="230" hspace="15">
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Oftalmologie/Igor_Dobre.jpg')}}" width="230" height="230" hspace="15">
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Oftalmologie/Otilia_Chirita.jpg')}}"width="230" height="230" hspace="15">
+<pre class="tab">
+        Dr. Corina Manolache                   Dr. Igor Dobre                     Dr. Otilia Chirita
+</pre>
+<br>  
+<h2>Pediatrie</h2>
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Pediatrie/Andreea_Craciun.jpg')}}" width="230" height="230" hspace="15">
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Pediatrie/Emanuel_Dabija.jpg')}}" width="230" height="230" hspace="15">
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Pediatrie/Sonia_Palici.jpg')}}" width="230" height="230" hspace="15">
+<pre class="tab">
+        Dr. Andreea Craciun                   Dr. Emanuel Dabija                 Dr. Sonia Palici
+</pre>
+<br>  
+<h2>Radiologie</h2>
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Radiologie/Cristian_Buse.jpg')}}" width="230" height="230" hspace="15">
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Radiologie/Horia_Ifrim.jpg')}}" width="230" height="230" hspace="15">
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Radiologie/Marius_Popescu.jpg')}}" width="230" height="230" hspace="15">
+<pre class="tab">
+        Dr. Cristian Buse                   Dr. Horia Ifrim                     Dr. Marius Popescu
+</pre>
+<br>  
+<h2>Urologie</h2>
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Urologie/Ania_Todica.jpg')}}" width="230" height="230" hspace="15">
+<img src="{{ url_for('static', filename='photo/Poze_Medici/Urologie/Igor_Sava.jpg')}}" width="230" height="230" hspace="15">
+<pre class="tab">
+        Dr. Ania Todica                       Dr. Igor Sava
+</pre>
+<br>
+<br>
+<br>
+</div>
+</body>
+</body>
+</html>
+
+

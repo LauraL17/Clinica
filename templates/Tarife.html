@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+ <style>
+body {
+  background-image: url("static/photo/Background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style> 
+<body>
+  <center>
+    <img src="{{ url_for('static', filename='photo/Logo_Clinica.jpg')}}"
+     width="75" 
+     height="75"
+ class="image"/>
+  </center>
+  <br>
+<header>
+  <a href="/acasa"><button style="background-color: skyblue; color:black; font-size: 20px">Acasa</button></a>
+  <a href="/specializari"> <button style="background-color: skyblue; color:black; font-size: 20px">Specializari</button></a>
+  <a href="/echipa"> <button style="background-color: skyblue; color:black; font-size: 20px">Echipa medicala</button></a>
+  <a href="/programari"><button style="background-color: skyblue; color:black; font-size: 20px">Programari</button></a>
+  <a href="/rezultate_analize"><button style="background-color:skyblue; color: black; font-size: 20px">Rezultate analize</button></a>
+  <a href="/tarife"><button style="background-color: skyblue; color:black; font-size: 20px">Tarife</button></a>
+  <a href="/contact"><button style="background-color: skyblue; color:black; font-size: 20px">Contact</button></a>
+  <a href="/raport"><button style="background-color: skyblue; color:black; font-size: 20px">Rapoarte</button></a>
+</header>
+<body>
+  <left><br><br>
+    <h1>Tarife</h1></left>
+<br>
+<left><h2>Alergologie & Imunologie</h2></left>
+<left><table>
+    <style>
+    table, th, td {
+         border:1px solid black;
+         align="left"
+      }
+  </style>
+  <div style="display:block; width:200%">
+  <div style="margin:0 auto; width:200px">
+    <table border="5" cellspacing="0" cellpadding="5" style="float:left; margin-right:40px;">
+   <tr>
+      <td><b>Consultatie</td></b>
+      <td>170 RON</td>
+    </tr>
+    <tr>
+      <td><b>Control</td></b>
+      <td>100 RON</td>
+    </tr>
+    <tr>
+      <td><b>Consultatie+Testare cutanata alergeni mediu</td></b>
+      <td>200 RON</td>
+    </tr>
+    <tr>
+      <td><b>Consultatie+Testare cutanata alergeni alimentari</td></b>
+      <td>200 RON</td>
+    </tr>
+    <tr>
+      <td><b>Consultatie+Testare cutanata alergeni mediu si alimentari</td></b>
+      <td>240 RON</td>
+    </tr>
+    <tr>
+      <td><b>Consultatie+Teste cutanate Patch</td></b>
+      <td>270 RON</td>
+    </tr>
+      <tr>
+      <td><b>Consultatie+Testare la anestezic local</td></b>
+      <td>200 RON</td>
+    </tr>
+      <tr>
+      <td><b>Consultatie+Testare la substanta de contrast</td></b>
+      <td>200 RON</td>
+    </tr>
+      <tr>
+      <td><b>Spirometrie+Interpretare</td></b>
+      <td>100 RON</td>
+    </tr>
+      <tr>
+      <td><b>Spirometrie cu Bronhodilatator</td></b>
+      <td>100 RON</td>
+   </tr>
+  </h1>
+  </div>
+</table>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br><br>
+<h2>Cardiologie</h2>
+<table>
+    <style>
+    table, th, td {
+         border:1px solid black;
+         align="left"
+      }
+  </style>
+  <div style="display:block; width:200%">
+  <div style="margin:0 auto; width:200px">
+    <table border="5" cellspacing="0" cellpadding="5" style="float:left; margin-right:40px;">
+   <tr>
+      <td><b>Consultatie+Electrocardiograma(EKG) cu interpretare</td></b>
+      <td>200 RON</td>
+    </tr>
+    <tr>
+      <td><b>Consultatie+Electrocardiograma(EKG) +Ecocardiografie</td></b>
+      <td>400 RON</td>
+    </tr>
+    <tr>
+      <td><b>Control</td><b>
+      <td>100 RON</td>
+    </tr>
+    <tr>
+      <td><b>Ecografie cardiaca DOPPLER</td></b>
+      <td>250 RON</td>
+    </tr>
+    <tr>
+      <td><b>Electrocardiograma (EKG) cu interpretare</td></b>
+      <td>&nbsp;&nbsp;80 RON</td>
+    </tr>
+    <tr>
+      <td><b>Interpretare analize/Referat></b>
+      <td>120 RON</td>
+    </tr>
+  </div>
+</table>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br>
+    <h2>Dermatologie</h2>
+<table>
+    <style>
+    table, th, td {
+         border:1px solid black;
+         align="left"
+      }
+  </style>
+  <div style="display:block; width:200%">
+  <div style="margin:0 auto; width:200px">
+    <table border="5" cellspacing="0" cellpadding="5" style="float:left; margin-right:40px;">
+   <tr>
+      <td><b>Consultatie</td></b>
+      <td>&nbsp;&nbsp;225 RON</td>
+    </tr>
+    <tr>
+      <td><b>Control</td></b>
+      <td>&nbsp;&nbsp;150 RON</td>
+    </tr>
+    <tr>
+      <td><b>Dermatoscopie</td></b>
+      <td>&nbsp;&nbsp;100 RON</td>
+    </tr>
+    <tr>
+      <td><b>Pachet mezoterapie perioculare - 3 sedinte</td></b>
+      <td>&nbsp;&nbsp;800 RON</td>
+    </tr>
+    <tr>
+      <td><b>Harta nervilor pigmentari</td></b>
+      <td>&nbsp;&nbsp;200 RON</td>
+    </tr>
+    <tr>
+      <td><b>Peeling chimic superficial</td></b>
+      <td>&nbsp;&nbsp;300 RON</td>
+    </tr>
+    <tr>
+      <td><b>Injectare acid hialuronic Croma Volume Plus, Restylane </td></b>
+      <td>1500 RON</td>
+    <tr>
+      <td><b>Injectare acid hialuronic Croma Volume></b>
+      <td>1300 RON</td>
+    </tr>
+  </div>
+</table>
+<br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+ <h2>Diabet & Nutritie</h2>
+<table>
+    <style>
+    table, th, td {
+         border:1px solid black;
+         align="left"
+      }
+  </style>
+  <div style="display:block; width:200%">
+  <div style="margin:0 auto; width:200px">
+    <table border="5" cellspacing="0" cellpadding="5" style="float:left; margin-right:40px;">
+   <tr>
+      <td><b>Consultatie diabet initiala </td></b>
+      <td>&nbsp;&nbsp;180 RON</td>
+    </tr>
+    <tr>
+      <td><b>Control diabet</td></b>
+      <td>&nbsp;&nbsp;100 RON</td>
+    </tr>
+    <tr>
+      <td><b>Consultatie nutritie initiala</td></b>
+      <td>&nbsp;&nbsp;250 RON</td>
+    </tr>
+    <tr>
+      <td><b>Control nutritie</td></b>
+      <td>&nbsp;&nbsp;150 RON</td>
+    </tr>
+    <tr>
+      <td><b>Pachet nutritie (consultatie initiala + 10 sedinte control)&nbsp;</td></b>
+      <td>1200 RON</td>
+    </tr>
+    <tr>
+      <td><b>Oscilometrie</td></b>
+      <td>&nbsp;&nbsp;&nbsp;30 RON</td>
+  </div>
+</table>
+<br><br><br><br>
+<br><br><br><br><br>
+<br><br>
+  <h2>Endocrionologie</h2>
+<table>
+    <style>
+    table, th, td {
+         border:1px solid black;
+         align="left"
+      }
+  </style>
+  <div style="display:block; width:200%">
+  <div style="margin:0 auto; width:200px">
+    <table border="5" cellspacing="0" cellpadding="5" style="float:left; margin-right:40px;">
+   <tr>
+      <td><b>Consultatie</td></b>
+      <td>280 RON</td>
+    </tr>
+    <tr>
+      <td><b>Ecografie tiroidiana</td></b>
+      <td>150 RON</td>
+    </tr>
+    <tr>
+      <td><b>Pachet consultatie + ecografie tiroidiana</td></b>
+      <td>250 RON</td>
+    </tr>
+    <tr>
+      <td><b>Control (in termen 2 saptamani de la consultatia initiala)</td></b>
+      <td>100 RON</td>
+    </tr>
+  </div>
+</table>
+<br><br><br><br>
+<br><br><br><br>
+  <h2>Gastroenterologie</h2>
+<table>
+    <style>
+    table, th, td {
+         border:1px solid black;
+         align="left"
+      }
+  </style>
+  <div style="display:block; width:200%">
+  <div style="margin:0 auto; width:200px">
+    <table border="5" cellspacing="0" cellpadding="5" style="float:left; margin-right:40px;">
+   <tr>
+      <td><b>Consultatie</td></b>
+      <td>220 RON</td>
+    </tr>
+    <tr>
+      <td><b>Ecografie abdominala</td></b>
+      <td>180 RON</td>
+    </tr>
+    <tr>
+      <td><b>Consultatie + Ecografie abdominala</td></b>
+      <td>300 RON</td>
+    </tr>
+    <tr>
+      <td><b>Endoscopie digestiva inferioasa</td></b>
+      <td>400 RON</td>
+    </tr>
+    <tr>
+      <td><b>Recoltare Test Rapid Helicobacter Pylori</td></b>
+      <td>&nbsp;&nbsp;70 RON</td>
+    </tr>
+    <tr>
+      <td><b>Endoscopie digestiva superioara/inferioasa+polipectomie</td></b>
+      <td>700 RON</td>
+    </tr>
+  </div>
+</table>
+<br><br><br>
+<br><br><br><br><br>
+<br><br><br>
+   <h2>Neurologie</h2>
+<table>
+    <style>
+    table, th, td {
+         border:1px solid black;
+         align="left"
+      }
+  </style>
+  <div style="display:block; width:200%">
+  <div style="margin:0 auto; width:200px">
+    <table border="5" cellspacing="0" cellpadding="5" style="float:left; margin-right:40px;">
+   <tr>
+      <td><b>Consultatie</td></b>
+      <td>&nbsp;&nbsp;240 RON</td>
+    </tr>
+    <tr>
+      <td><b>Poligrafie</td></b>
+      <td>&nbsp;&nbsp;900 RON</td>
+    </tr>
+    <tr>
+      <td><b>Pulsoximetrie evaluare terapie</td></b>
+      <td>&nbsp;&nbsp;330 RON</td>
+    </tr>
+    <tr>
+      <td><b>Pachet somnolog  - (consult, poligrafie, titrare, control)&nbsp;&nbsp;&nbsp;</td></b>
+      <td>1200 RON</td>
+    </tr>
+    <tr>
+      <td><b>Polisomnografie</td></b>
+      <td>1000 RON</td>
+    </tr>
+  </div>
+</table>
+<br><br><br><br>
+<br><br><br><br><br>
+<h2>Oftalmologie</h2>
+<table>
+    <style>
+    table, th, td {
+         border:1px solid black;
+         align="left"
+      }
+  </style>
+  <div style="display:block; width:200%">
+  <div style="margin:0 auto; width:200px">
+    <table border="5" cellspacing="0" cellpadding="5" style="float:left; margin-right:40px;">
+   <tr>
+      <td><b>Consultatie completa</td></b>
+      <td>&nbsp;&nbsp;250 RON</td>
+    </tr>
+    <tr>
+      <td><b>Consultatie de evaluare pentru reducerea dioptriilor &nbsp;&nbsp;&nbsp;&nbsp;</td></b>
+      <td>&nbsp;&nbsp;300 RON</td>
+    </tr>
+    <tr>
+      <td><b>Consultatie initiala ortokeratologie</td></b>
+      <td>&nbsp;&nbsp;450 RON</td>
+    </tr>
+    <tr>
+      <td><b>Consultatie stravism/diplopie (vedere dubla)</td></b>
+      <td>&nbsp;&nbsp;320 RON</td>
+    </tr>
+    <tr>
+      <td><b>Reducerea dioptriilor cu laser prin procedura PRK </td></b>
+      <td>3500 RON</td>
+    </tr>
+    <tr>
+      <td><b>Prescriptie ochelari de vedere</td></b>
+      <td>&nbsp;&nbsp;130 RON</td>
+    </tr>
+  </div>
+</table>
+<br><br><br><br>
+<br><br><br><br>
+<br><br>
+<br>
+<h2>Pediatrie</h2>
+<table>
+    <style>
+    table, th, td {
+         border:1px solid black;
+         align="left"
+      }
+  </style>
+  <div style="display:block; width:200%">
+  <div style="margin:0 auto; width:200px">
+    <table border="5" cellspacing="0" cellpadding="5" style="float:left; margin-right:40px;">
+   <tr>
+      <td><b>Consultatie pediatrica</td></b>
+      <td>&nbsp;&nbsp;200 RON</td>
+    </tr>
+    <tr>
+      <td><b>Consultatie pediatrica la domiciliu (1 copil sau 2 frati)&nbsp;&nbsp;</td></b>
+      <td>&nbsp;&nbsp;400 RON</td>
+    </tr>
+    <tr>
+      <td><b>Ecografie abdominala</td></b>
+      <td>&nbsp;&nbsp;150 RON</td>
+    </tr>
+    <tr>
+      <td><b>Vaccinare</td></b>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp75 RON</td>
+    </tr>
+    <tr>
+      <td><b>Aerosoli </td></b>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;50 RON</td>
+    </tr>
+    <tr>
+      <td><b>Tratament injectabil</td></b>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;50 RON</td>
+    </tr>
+  </div>
+</table>
+<br><br><br><br>
+<br><br><br><br><br>
+<br><br>
+<h2>Radiologie</h2>
+<table>
+    <style>
+    table, th, td {
+         border:1px solid black;
+         align="left"
+      }
+  </style>
+  <div style="display:block; width:200%">
+  <div style="margin:0 auto; width:200px">
+    <table border="5" cellspacing="0" cellpadding="5" style="float:left; margin-right:40px;">
+   <tr>
+      <td><b>Ecografie generala</td></b>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;80 RON</td>
+    </tr>
+    <tr>
+      <td><b>Ecografie abdominala</td></b>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;80 RON</td>
+    </tr>
+    <tr>
+      <td><b>Ecografie pelvis</td></b>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;50 RON</td>
+    </tr>
+    <tr>
+      <td><b>Ecografie mamama</td></b>
+      <td>&nbsp;&nbsp;150 RON</td>
+    </tr>
+    <tr>
+      <td><b>Examen radiologic torace osos</td></b>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;55 RON</td>
+    </tr>
+    <tr>
+      <td><b>Examen radiologic coloana vertebrala/segment</td></b>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;50 RON</td>
+    </tr>
+    <tr>
+      <td><b>Ecografie DOPPLER/membre inferioare-per membru&nbsp;&nbsp;</td></b>
+      <td>&nbsp;&nbsp;100 RON</td>
+    </tr>
+  </div>
+</table>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<h2>Urologie</h2>
+<table>
+    <style>
+    table, th, td {
+         border:1px solid black;
+         align="left"
+      }
+  </style>
+  <div style="display:block; width:200%">
+  <div style="margin:0 auto; width:200px">
+    <table border="5" cellspacing="0" cellpadding="5" style="float:left; margin-right:40px;">
+   <tr>
+      <td><b>Consultatie urologica</td></b>
+      <td>&nbsp;&nbsp;200 RON</td>
+    </tr>
+    <tr>
+      <td><b>Consultatie completa urologica (inclusiv ecografie)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></b>
+      <td>&nbsp;&nbsp;350 RON</td>
+    </tr>
+    <tr>
+      <td><b>Consultatie completa SENIOR</td></b>
+      <td>&nbsp;&nbsp;370 RON</td>
+    </tr>
+    <tr>
+      <td><b>Ecografie generala</td></b>
+      <td>&nbsp;&nbsp;400 RON</td>
+    </tr>
+    <tr>
+      <td><b>Ecografie abdominala</td></b>
+      <td>&nbsp;&nbsp;250 RON</td>
+    </tr>
+    <tr>
+      <td><b>Ecografie pelvina</td></b>
+      <td>&nbsp;&nbsp;150 RON</td>
+    </tr>
+  </div>
+</table>
+<br><br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+
+

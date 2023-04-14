@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+ <style>
+body {
+  background-image: url("static/photo/Background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style> 
+<body>
+  <center>
+     <img src="{{ url_for('static', filename='photo/Logo_Clinica.jpg')}}"
+     width="75" 
+     height="75"
+ class="image"/>
+  </center>
+  <br>
+<header>
+  <a href="/acasa"><button style="background-color: skyblue; color:black; font-size: 20px">Acasa</button></a>
+  <a href="/secializari"> <button style="background-color: skyblue; color:black; font-size: 20px">Specializari</button></a>
+  <a href="/echipa"> <button style="background-color: skyblue; color:black; font-size: 20px">Echipa medicala</button></a>
+  <a href="/programari"><button style="background-color: skyblue; color:black; font-size: 20px">Programari</button></a>
+  <a href="/rezultate_analize"><button style="background-color:skyblue; color: black; font-size: 20px">Rezultate analize</button></a>
+  <a href="/tarife"><button style="background-color: skyblue; color:black; font-size: 20px">Tarife</button></a>
+  <a href="/contact"><button style="background-color: skyblue; color:black; font-size: 20px">Contact</button></a>
+  <a href="/rapoarte"><button style="background-color: skyblue; color:black; font-size: 20px">Rapoarte</button></a>
+</header>
+<body><br><br><br>
+  <center><p><h2>Data/Ora locala: <span id="datetime"></span></p></h2>
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+</script>
+  <center>
+<script id="setmore_script" type="text/javascript" src="https://my.setmore.com/webapp/js/src/others/setmore_iframe.js"></script><a id="Setmore_button_iframe" style="float:none" href="https://booking.setmore.com/scheduleappointment/0805a56c-2538-41af-bc48-ff816621a37d"><img border="none" src="https://storage.googleapis.com/full-assets/setmore/images/1.0/Settings/book-now-blue.png" alt="Book an appointment with Programare online using Setmore" /></a>
