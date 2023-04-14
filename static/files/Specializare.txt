@@ -1,0 +1,11 @@
+1,Alergologie&Imunologie
+2,Cardiologie
+3,Dermatologie
+4,Diabet&Nutritie
+5,Endocrinologie
+6,Gastroenterologie
+7,Neurologie
+8,Oftalmologie
+9,Pediatrie
+10,Radiologie
+11,Urologie
