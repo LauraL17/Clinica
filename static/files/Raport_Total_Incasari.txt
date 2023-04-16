@@ -1,0 +1,12 @@
+IDSpecializare Specializare Total_incasari 
+1     Alergologie&Imunologie     Decimal3980    
+2     Cardiologie     Decimal3290    
+3     Dermatologie     Decimal19675    
+4     Diabet&Nutriti     Decimal9800    
+5     Endocrinologie     Decimal5540    
+6     Gastroenterologi     Decimal6610    
+7     Neurologie     Decimal18300    
+8     Oftalmologie     Decimal20820    
+9     Pediatrie     Decimal4250    
+10     Radiologie     Decimal1580    
+11     Urologie     Decimal2670    
