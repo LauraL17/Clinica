@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+ <style>
+body {
+  background-image: url("static/photo/Background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style> 
+<body>
+  <center>
+    <img src="{{ url_for('static', filename='photo/Logo_Clinica.jpg')}}"
+     width="75" 
+     height="75"
+ class="image"/>
+  </center>
+  <br>
+<header>
+  <a href="/acasa"><button style="background-color: skyblue; color:black; font-size: 20px">Acasa</button></a>
+  <a href="/specializari"> <button style="background-color: skyblue; color:black; font-size: 20px">Specializari</button></a>
+  <a href="/echipa"> <button style="background-color: skyblue; color:black; font-size: 20px">Echipa medicala</button></a>
+  <a href="/programari"><button style="background-color: skyblue; color:black; font-size: 20px">Programari</button></a>
+  <a href="/rezultate_analize"><button style="background-color:skyblue; color: black; font-size: 20px">Rezultate analize</button></a>
+  <a href="/tarife"><button style="background-color: skyblue; color:black; font-size: 20px">Tarife</button></a>
+  <a href="/contact"><button style="background-color: skyblue; color:black; font-size: 20px">Contact</button></a>
+  <a href="/rapoarte"><button style="background-color: skyblue; color:black; font-size: 20px">Rapoarte</button></a>
+</header>
+<body>
+  <center><br><br>
+    <h1>Rapoarte clinica</h1>
+</center>
+  <br>
+  <br>
+</style>
+</head>
+<body>
+  <style>
+.row img {
+   display:inline-block;
+}
+.row{
+  text-align:left;
+}
+</style>
+
+<h2><a href="/raport_specializare_calificare"> <button style="background-color: aliceblue; color:black; font-size: 20px">Lista Doctori - specializare/calificare</button></a></h2>
+<h2><a href="/raport_programari_pacienti"> <button style="background-color: aliceblue; color:black; font-size: 20px">Programari Pacienti</button></a>
+<h2><a href="/raport_suma_pacienti"><button style="background-color:aliceblue; color: black; font-size: 20px">Incasari/Pacient</button></a></h2>
+<h2><a href="/raport_total_incasari"><button style="background-color: aliceblue; color:black; font-size: 20px">Total Incasari/Departament</button></a></h2>
+
+
